@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.panel{
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 30vw;
+  height: 30vh;
+}
+
+h1{
+  animation-name: opacity;
+  animation-duration: 1s;
+}
+
+h2{
+  animation-name: opacity;
+  animation-duration: 1s;
+}
+
+@keyframes opacity{
+  from{opacity:0;}
+  to{opacity: 1;}
+}
+
+.new{
+  animation-name: opacity;
+  animation-duration: 1s;
+}
